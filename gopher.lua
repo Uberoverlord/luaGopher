@@ -1,7 +1,7 @@
 local gopher = {}
 
-local defaulthost = "0.tcp.ngrok.io"
-local defaultport = 10035
+local defaulthost = "localhost"
+local defaultport = 7070
 
 gopher.item = function(t,content,selector,host,port)
     if selector == nil then selector = "" end
